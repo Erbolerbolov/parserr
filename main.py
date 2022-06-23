@@ -8,7 +8,7 @@ import random
 url = 'https://www.kivano.kg/kompyutery?page='
 computers = []
 count = 1
-while count <= 5:
+while count <= 6:
     url = 'https://www.kivano.kg/kompyutery?page=' + str(count)
     print(url)
     response = get(url)
